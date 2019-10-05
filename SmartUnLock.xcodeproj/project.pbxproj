@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835797F123486CA7003DE545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835797F023486CA7003DE545 /* AppDelegate.swift */; };
+		835797F323486CA7003DE545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835797F223486CA7003DE545 /* ViewController.swift */; };
+		835797F623486CA7003DE545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835797F423486CA7003DE545 /* Main.storyboard */; };
+		835797F923486CA7003DE545 /* SmartUnLock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 835797F723486CA7003DE545 /* SmartUnLock.xcdatamodeld */; };
+		835797FB23486CA7003DE545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835797FA23486CA7003DE545 /* Assets.xcassets */; };
+		835797FE23486CA7003DE545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835797FC23486CA7003DE545 /* LaunchScreen.storyboard */; };
+		8357980923486CA7003DE545 /* SmartUnLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8357980823486CA7003DE545 /* SmartUnLockTests.swift */; };
+		8357981423486CA7003DE545 /* SmartUnLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8357981323486CA7003DE545 /* SmartUnLockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8357980523486CA7003DE545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835797E523486CA7003DE545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835797EC23486CA7003DE545;
+			remoteInfo = SmartUnLock;
+		};
+		8357981023486CA7003DE545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835797E523486CA7003DE545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835797EC23486CA7003DE545;
+			remoteInfo = SmartUnLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		835797ED23486CA7003DE545 /* SmartUnLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartUnLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835797F023486CA7003DE545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		835797F223486CA7003DE545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		835797F523486CA7003DE545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		835797F823486CA7003DE545 /* SmartUnLock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartUnLock.xcdatamodel; sourceTree = "<group>"; };
+		835797FA23486CA7003DE545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835797FD23486CA7003DE545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835797FF23486CA7003DE545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8357980423486CA7003DE545 /* SmartUnLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartUnLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8357980823486CA7003DE545 /* SmartUnLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartUnLockTests.swift; sourceTree = "<group>"; };
+		8357980A23486CA7003DE545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8357980F23486CA7003DE545 /* SmartUnLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartUnLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8357981323486CA7003DE545 /* SmartUnLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartUnLockUITests.swift; sourceTree = "<group>"; };
+		8357981523486CA7003DE545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835797EA23486CA7003DE545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8357980123486CA7003DE545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8357980C23486CA7003DE545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835797E423486CA7003DE545 = {
+			isa = PBXGroup;
+			children = (
+				835797EF23486CA7003DE545 /* SmartUnLock */,
+				8357980723486CA7003DE545 /* SmartUnLockTests */,
+				8357981223486CA7003DE545 /* SmartUnLockUITests */,
+				835797EE23486CA7003DE545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835797EE23486CA7003DE545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835797ED23486CA7003DE545 /* SmartUnLock.app */,
+				8357980423486CA7003DE545 /* SmartUnLockTests.xctest */,
+				8357980F23486CA7003DE545 /* SmartUnLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835797EF23486CA7003DE545 /* SmartUnLock */ = {
+			isa = PBXGroup;
+			children = (
+				835797F023486CA7003DE545 /* AppDelegate.swift */,
+				835797F223486CA7003DE545 /* ViewController.swift */,
+				835797F423486CA7003DE545 /* Main.storyboard */,
+				835797FA23486CA7003DE545 /* Assets.xcassets */,
+				835797FC23486CA7003DE545 /* LaunchScreen.storyboard */,
+				835797FF23486CA7003DE545 /* Info.plist */,
+				835797F723486CA7003DE545 /* SmartUnLock.xcdatamodeld */,
+			);
+			path = SmartUnLock;
+			sourceTree = "<group>";
+		};
+		8357980723486CA7003DE545 /* SmartUnLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				8357980823486CA7003DE545 /* SmartUnLockTests.swift */,
+				8357980A23486CA7003DE545 /* Info.plist */,
+			);
+			path = SmartUnLockTests;
+			sourceTree = "<group>";
+		};
+		8357981223486CA7003DE545 /* SmartUnLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8357981323486CA7003DE545 /* SmartUnLockUITests.swift */,
+				8357981523486CA7003DE545 /* Info.plist */,
+			);
+			path = SmartUnLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835797EC23486CA7003DE545 /* SmartUnLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8357981823486CA7003DE545 /* Build configuration list for PBXNativeTarget "SmartUnLock" */;
+			buildPhases = (
+				835797E923486CA7003DE545 /* Sources */,
+				835797EA23486CA7003DE545 /* Frameworks */,
+				835797EB23486CA7003DE545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartUnLock;
+			productName = SmartUnLock;
+			productReference = 835797ED23486CA7003DE545 /* SmartUnLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8357980323486CA7003DE545 /* SmartUnLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8357981B23486CA7003DE545 /* Build configuration list for PBXNativeTarget "SmartUnLockTests" */;
+			buildPhases = (
+				8357980023486CA7003DE545 /* Sources */,
+				8357980123486CA7003DE545 /* Frameworks */,
+				8357980223486CA7003DE545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8357980623486CA7003DE545 /* PBXTargetDependency */,
+			);
+			name = SmartUnLockTests;
+			productName = SmartUnLockTests;
+			productReference = 8357980423486CA7003DE545 /* SmartUnLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8357980E23486CA7003DE545 /* SmartUnLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8357981E23486CA7003DE545 /* Build configuration list for PBXNativeTarget "SmartUnLockUITests" */;
+			buildPhases = (
+				8357980B23486CA7003DE545 /* Sources */,
+				8357980C23486CA7003DE545 /* Frameworks */,
+				8357980D23486CA7003DE545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8357981123486CA7003DE545 /* PBXTargetDependency */,
+			);
+			name = SmartUnLockUITests;
+			productName = SmartUnLockUITests;
+			productReference = 8357980F23486CA7003DE545 /* SmartUnLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835797E523486CA7003DE545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "加藤大";
+				TargetAttributes = {
+					835797EC23486CA7003DE545 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8357980323486CA7003DE545 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 835797EC23486CA7003DE545;
+					};
+					8357980E23486CA7003DE545 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 835797EC23486CA7003DE545;
+					};
+				};
+			};
+			buildConfigurationList = 835797E823486CA7003DE545 /* Build configuration list for PBXProject "SmartUnLock" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835797E423486CA7003DE545;
+			productRefGroup = 835797EE23486CA7003DE545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835797EC23486CA7003DE545 /* SmartUnLock */,
+				8357980323486CA7003DE545 /* SmartUnLockTests */,
+				8357980E23486CA7003DE545 /* SmartUnLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835797EB23486CA7003DE545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835797FE23486CA7003DE545 /* LaunchScreen.storyboard in Resources */,
+				835797FB23486CA7003DE545 /* Assets.xcassets in Resources */,
+				835797F623486CA7003DE545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8357980223486CA7003DE545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8357980D23486CA7003DE545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835797E923486CA7003DE545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835797F323486CA7003DE545 /* ViewController.swift in Sources */,
+				835797F923486CA7003DE545 /* SmartUnLock.xcdatamodeld in Sources */,
+				835797F123486CA7003DE545 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8357980023486CA7003DE545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8357980923486CA7003DE545 /* SmartUnLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8357980B23486CA7003DE545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8357981423486CA7003DE545 /* SmartUnLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8357980623486CA7003DE545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835797EC23486CA7003DE545 /* SmartUnLock */;
+			targetProxy = 8357980523486CA7003DE545 /* PBXContainerItemProxy */;
+		};
+		8357981123486CA7003DE545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835797EC23486CA7003DE545 /* SmartUnLock */;
+			targetProxy = 8357981023486CA7003DE545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		835797F423486CA7003DE545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835797F523486CA7003DE545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		835797FC23486CA7003DE545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835797FD23486CA7003DE545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8357981623486CA7003DE545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8357981723486CA7003DE545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8357981923486CA7003DE545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83RAS44LJ;
+				INFOPLIST_FILE = SmartUnLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dai666k-gmail.com.SmartUnLock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8357981A23486CA7003DE545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83RAS44LJ;
+				INFOPLIST_FILE = SmartUnLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dai666k-gmail.com.SmartUnLock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8357981C23486CA7003DE545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83RAS44LJ;
+				INFOPLIST_FILE = SmartUnLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dai666k-gmail.com.SmartUnLockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartUnLock.app/SmartUnLock";
+			};
+			name = Debug;
+		};
+		8357981D23486CA7003DE545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83RAS44LJ;
+				INFOPLIST_FILE = SmartUnLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dai666k-gmail.com.SmartUnLockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartUnLock.app/SmartUnLock";
+			};
+			name = Release;
+		};
+		8357981F23486CA7003DE545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83RAS44LJ;
+				INFOPLIST_FILE = SmartUnLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dai666k-gmail.com.SmartUnLockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartUnLock;
+			};
+			name = Debug;
+		};
+		8357982023486CA7003DE545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83RAS44LJ;
+				INFOPLIST_FILE = SmartUnLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dai666k-gmail.com.SmartUnLockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartUnLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835797E823486CA7003DE545 /* Build configuration list for PBXProject "SmartUnLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8357981623486CA7003DE545 /* Debug */,
+				8357981723486CA7003DE545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8357981823486CA7003DE545 /* Build configuration list for PBXNativeTarget "SmartUnLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8357981923486CA7003DE545 /* Debug */,
+				8357981A23486CA7003DE545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8357981B23486CA7003DE545 /* Build configuration list for PBXNativeTarget "SmartUnLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8357981C23486CA7003DE545 /* Debug */,
+				8357981D23486CA7003DE545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8357981E23486CA7003DE545 /* Build configuration list for PBXNativeTarget "SmartUnLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8357981F23486CA7003DE545 /* Debug */,
+				8357982023486CA7003DE545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		835797F723486CA7003DE545 /* SmartUnLock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				835797F823486CA7003DE545 /* SmartUnLock.xcdatamodel */,
+			);
+			currentVersion = 835797F823486CA7003DE545 /* SmartUnLock.xcdatamodel */;
+			path = SmartUnLock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 835797E523486CA7003DE545 /* Project object */;
+}
